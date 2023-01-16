@@ -1,0 +1,31 @@
+input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th {
+    background: #eee;
+    padding: 5px;
+    text-align: left;
+}
+table td {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+table tr:hover {
+    background: #f1f1f1;
+}
+table tr:last-child {
+    border-bottom: 0;
+}
