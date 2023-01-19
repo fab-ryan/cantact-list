@@ -41,24 +41,6 @@
         </tbody>
     </table>
 
-    {{-- form --}}
-
-    {{-- <form action="{{ route('contact.store') }}" method="POST">
-        @csrf
-        @error('name')
-            <div class="alert alert-danger">{{ $message }}</div>
-        @enderror
-        <input type="text" name="name" placeholder="Name">
-        @error('email')
-            <div class="alert alert-danger">{{ $message }}</div>
-        @enderror
-        <input type="email" name="email" placeholder="Email">
-        @error('phone')
-            <div class="alert alert-danger">{{ $message }}</div>
-        @enderror
-        <input type="tel" name="phone" placeholder="Phone">
-        <button type="submit">Send</button>
-    </form> --}}
 
 
 </html>
